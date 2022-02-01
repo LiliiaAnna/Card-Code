@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ca.sheridancollege.week2.softwarefundamentals;
 
 /**
  * The class where we create Cards
- * @author dancye, 2019
+ * @liliia anna korol, 2022
  */
 
 //This is my comment from 1st february by Liliia Anna Korol
@@ -20,4 +16,8 @@ public class CardDealer
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
     }
+    public void showCards() {   //to print cards
+        for (Card card : cards) {
+            System.out.println(card.toString());
+        }
 }
